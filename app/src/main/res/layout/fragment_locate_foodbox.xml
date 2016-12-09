@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clickable="true"
+    android:padding="16dp"
+    tools:context=".LocateFoodBox">
+
+
+    <TextView
+        android:id="@+id/locationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Location"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationTitle"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/ic_drop"
+        android:gravity="center"
+        android:hint="Select City"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:id="@+id/area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/ic_drop"
+        android:gravity="center"
+        android:hint="Select Area"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:id="@+id/store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/area"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/ic_drop"
+        android:gravity="center"
+        android:hint="Select Store"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" />
+
+    <Button
+        android:id="@+id/btn_location_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/store"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_border"
+        android:padding="5dp"
+        android:text="Continue"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

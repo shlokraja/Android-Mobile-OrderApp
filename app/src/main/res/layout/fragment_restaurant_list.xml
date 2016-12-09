@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/grey_rounded_bg"
+        android:searchIcon="@drawable/ic_search" />
+
+    <android.support.v7.widget.RecyclerView xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list_restaurent"
+        android:name="unifytech.foodbox.RestaurantList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        tools:context="unifytech.foodbox.RestaurantList"
+        tools:listitem="@layout/fragment_item" />
+</android.support.design.widget.CoordinatorLayout>

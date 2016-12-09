@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_id": "foodbox-9cc9b",
+    "project_number": "482993271372",
+    "name": "foodbox"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482993271372:android:d50cce14f5df2f9b",
+        "client_id": "android:unifytech.foodbox",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "unifytech.foodbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482993271372-m94ld4oqjmj960aut5psbqbkrk59q1o9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "unifytech.foodbox",
+            "certificate_hash": "56CF8F4878FC7E24F30A0DED5DD41C02979CD957"
+          }
+        },
+        {
+          "client_id": "482993271372-28v985hn0dtti2sg0savajlcf15acas5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
